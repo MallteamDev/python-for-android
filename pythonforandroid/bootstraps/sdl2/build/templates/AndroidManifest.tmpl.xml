@@ -141,7 +141,7 @@
     {% endfor %}
 
     <provider
-    android:name="androidx.core.content.FileProvider"
+    android:name="android.support.v4.FileProvider"
     android:authorities="com.mallteam.ma_administratormall.fileprovider"
     android:exported="false"
     android:grantUriPermissions="true">
